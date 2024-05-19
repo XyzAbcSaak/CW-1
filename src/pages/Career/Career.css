@@ -1,0 +1,56 @@
+.career-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.career-img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.career-desc-container,
+.career-desc-container form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.career-desc-container h1 {
+    font-size: 35px;
+}
+
+.career-desc-container p {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+
+
+.career-desc-container form input,
+.career-desc-container form button {
+    border-radius: 5px;
+    min-width: 500px;
+    font-size: 16px;
+    padding: 10px;
+    outline: none;
+    border: none;
+}
+
+.career-desc-container form button {
+    transition: .5s ease-in-out;
+    cursor: pointer;
+    background-color: var(--cta-secondary-color);
+    color: var(--clean-white-color);
+}
+
+.career-desc-container form button:hover {
+    background-color: #488d20
+}

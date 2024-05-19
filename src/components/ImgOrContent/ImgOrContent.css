@@ -1,0 +1,26 @@
+.img-or-desc-img-wrapper,
+.img-or-desc-content-wrapper {
+    min-width: 300px;
+    max-width: 500px;
+    flex: 1;
+}
+
+.img-or-desc-img-wrapper img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.img-or-desc-content-wrapper p {
+    line-height: 50px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+@media (max-width: 650px) {
+    .img-or-desc-content-wrapper p {
+        line-height: 25px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+}

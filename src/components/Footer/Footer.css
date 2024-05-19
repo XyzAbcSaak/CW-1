@@ -1,0 +1,50 @@
+.footer-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px 25px;
+}
+
+.footer-content {
+    min-width: 300px;
+    max-width: 500px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.brand-container .footer-logo-wrapper {
+    width: 100px;
+    cursor: pointer;
+}
+
+.brand-container .brand-content-wrapper p {
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 25px;
+}
+
+.company-pages-container ul,
+.get-in-touch-wrapper ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.copy-rights {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    font-size: 12px;
+    font-weight: 200;
+}
