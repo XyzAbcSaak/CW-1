@@ -7,7 +7,8 @@
     flex: 1;
     min-height: 300px;
     max-height: 300px;
-    min-width: 500px;
+    max-width: 500px;
+    min-width: 200px;
 }
 
 .flex-box.f1 {
