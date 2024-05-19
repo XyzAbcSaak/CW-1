@@ -7,8 +7,8 @@
     flex: 1;
     min-height: 300px;
     max-height: 300px;
-    max-width: 500px;
-    min-width: 200px;
+    /* max-width: 500px; */
+    min-width: 500px;
 }
 
 .flex-box.f1 {
@@ -84,4 +84,31 @@
         font-size: 23px;
         color: var(--clean-white-color);
     }
+}
+
+@media (max-width: 850px) {
+    .flex-box {
+        min-width: 400px;
+    }
+
+    .flex-box.f4 h3 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 750px) {
+    .flex-box {
+        min-width: 300px;
+    }
+
+    .flex-box.f4 h3 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 650px) {
+    .flex-box {
+        min-width: 200px;
+    }
+
 }

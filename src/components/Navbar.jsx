@@ -20,19 +20,19 @@ const Navbar = ({ setShowLogin }) => {
 
                 <div className="nav-right">
                     <ul className="links">
-                        <NavLink activeclassname="active" to="/">
+                        <NavLink end activeclassname="active" to="/CW-1/">
                             <li>Home</li>
                         </NavLink>
-                        <NavLink activeclassname="active" to="/product">
+                        <NavLink activeclassname="active" to="/CW-1/product">
                             <li>Products</li>
                         </NavLink>
-                        <NavLink activeclassname="active" to="/about-us">
+                        <NavLink activeclassname="active" to="/CW-1/about-us">
                             <li>About us</li>
                         </NavLink>
-                        <NavLink activeclassname="active" to="/contact">
+                        <NavLink activeclassname="active" to="/CW-1/contact">
                             <li>Contact</li>
                         </NavLink>
-                        <NavLink activeclassname="active" to="/career">
+                        <NavLink activeclassname="active" to="/CW-1/career">
                             <li>Career</li>
                         </NavLink>
                     </ul>
@@ -59,19 +59,28 @@ const Navbar = ({ setShowLogin }) => {
                         </div>
 
                         <ul className="links">
-                            <NavLink activeclassname="active" to="/">
+                            <NavLink end activeclassname="active" to="/CW-1/">
                                 <li>Home</li>
                             </NavLink>
-                            <NavLink activeclassname="active" to="/product">
+                            <NavLink
+                                activeclassname="active"
+                                to="/CW-1/product"
+                            >
                                 <li>Products</li>
                             </NavLink>
-                            <NavLink activeclassname="active" to="/about-us">
+                            <NavLink
+                                activeclassname="active"
+                                to="/CW-1/about-us"
+                            >
                                 <li>About us</li>
                             </NavLink>
-                            <NavLink activeclassname="active" to="/contact">
+                            <NavLink
+                                activeclassname="active"
+                                to="/CW-1/contact"
+                            >
                                 <li>Contact</li>
                             </NavLink>
-                            <NavLink activeclassname="active" to="/career">
+                            <NavLink activeclassname="active" to="/CW-1/career">
                                 <li>Career</li>
                             </NavLink>
                         </ul>

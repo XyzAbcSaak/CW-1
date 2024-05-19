@@ -18,11 +18,11 @@ const App = () => {
             <Navbar setShowLogin={setShowLogin} />
             <div className="app-container">
                 <Routes>
-                    <Route path="/" element={<Home />} />
-                    <Route path="/product" element={<Product />} />
-                    <Route path="/about-us" element={<AboutUs />} />
-                    <Route path="/contact" element={<Contact />} />
-                    <Route path="/career" element={<Career />} />
+                    <Route path="/CW-1/" element={<Home />} />
+                    <Route path="/CW-1/product" element={<Product />} />
+                    <Route path="/CW-1/about-us" element={<AboutUs />} />
+                    <Route path="/CW-1/contact" element={<Contact />} />
+                    <Route path="/CW-1/career" element={<Career />} />
                 </Routes>
             </div>
             <hr />

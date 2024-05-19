@@ -24,19 +24,19 @@ const Footer = () => {
                 <div className="footer-content company-pages-container">
                     <h2>C O M P A N Y</h2>
                     <ul className="links">
-                        <NavLink activeclassname="active" to="/">
+                        <NavLink end activeclassname="active" to="/CW-1/">
                             <li>H O M E</li>
                         </NavLink>
-                        <NavLink activeclassname="active" to="/product">
+                        <NavLink activeclassname="active" to="/CW-1/product">
                             <li>P R O D U C T S</li>
                         </NavLink>
-                        <NavLink activeclassname="active" to="/about-us">
+                        <NavLink activeclassname="active" to="/CW-1/about-us">
                             <li>A B O U T &nbsp; U S</li>
                         </NavLink>
-                        <NavLink activeclassname="active" to="/contact">
+                        <NavLink activeclassname="active" to="/CW-1/contact">
                             <li>C O N T A C T</li>
                         </NavLink>
-                        <NavLink activeclassname="active" to="/career">
+                        <NavLink activeclassname="active" to="/CW-1/career">
                             <li>C A R E E R</li>
                         </NavLink>
                     </ul>

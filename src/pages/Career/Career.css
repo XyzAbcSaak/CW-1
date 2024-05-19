@@ -21,6 +21,7 @@
     align-items: center;
     flex-direction: column;
     gap: 25px;
+    text-align: center;
 }
 
 .career-desc-container h1 {
@@ -37,7 +38,7 @@
 .career-desc-container form input,
 .career-desc-container form button {
     border-radius: 5px;
-    min-width: 500px;
+    min-width: 300px;
     font-size: 16px;
     padding: 10px;
     outline: none;
